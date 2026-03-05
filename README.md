@@ -1,73 +1,53 @@
 # GEE Scripts Portfolio
 
-Google Earth Engine scripts by Gabriel Sanya — all code available on GitHub.
+Google Earth Engine scripts by Gabriel Sanya — all code on GitHub. Each of the 17 projects is a **folder**; each project contains multiple sub-scripts (one `.js` file per script in the GEE Code Editor).
 
 ## Repo layout
 
-| GEE path | File in this repo |
-|----------|-------------------|
-| `users/gabrielsanya/Aljouf` | [scripts/Aljouf.js](scripts/Aljouf.js) |
-| `users/gabrielsanya/code101` | [scripts/code101.js](scripts/code101.js) |
-| `users/gabrielsanya/Codethlon` | [scripts/Codethlon.js](scripts/Codethlon.js) |
-| `users/gabrielsanya/DEM` | [scripts/DEM.js](scripts/DEM.js) |
-| `users/gabrielsanya/Forest` | [scripts/Forest.js](scripts/Forest.js) |
-| `users/gabrielsanya/GEE_SC1` | [scripts/GEE_SC1.js](scripts/GEE_SC1.js) |
-| `users/gabrielsanya/KenyaAtlas` | [scripts/KenyaAtlas.js](scripts/KenyaAtlas.js) |
-| `users/gabrielsanya/Liberia` | [scripts/Liberia.js](scripts/Liberia.js) |
-| `users/gabrielsanya/Oyoun` | [scripts/Oyoun.js](scripts/Oyoun.js) |
-| `users/gabrielsanya/RL_reseeding` | [scripts/RL_reseeding.js](scripts/RL_reseeding.js) |
-| `users/gabrielsanya/Saudi` | [scripts/Saudi.js](scripts/Saudi.js) |
-| `users/gabrielsanya/SaudiAtlas` | [scripts/SaudiAtlas.js](scripts/SaudiAtlas.js) |
-| `users/gabrielsanya/ServirProgram` | [scripts/ServirProgram.js](scripts/ServirProgram.js) |
-| `users/gabrielsanya/Somalia` | [scripts/Somalia.js](scripts/Somalia.js) |
-| `users/gabrielsanya/Sudan` | [scripts/Sudan.js](scripts/Sudan.js) |
-| `users/gabrielsanya/try/Bouar` | [scripts/try/Bouar.js](scripts/try/Bouar.js) |
-| `users/gabrielsanya/try/Galana` | [scripts/try/Galana.js](scripts/try/Galana.js) |
+| GEE project | In this repo |
+|-------------|--------------|
+| `users/gabrielsanya/Aljouf` | [scripts/Aljouf/](scripts/Aljouf/) — 29 sub-scripts (placeholders ready for paste) |
+| `users/gabrielsanya/code101` | [scripts/code101/](scripts/code101/) |
+| `users/gabrielsanya/Codethlon` | [scripts/Codethlon/](scripts/Codethlon/) |
+| `users/gabrielsanya/DEM` | [scripts/DEM/](scripts/DEM/) |
+| `users/gabrielsanya/Forest` | [scripts/Forest/](scripts/Forest/) |
+| `users/gabrielsanya/GEE_SC1` | [scripts/GEE_SC1/](scripts/GEE_SC1/) |
+| `users/gabrielsanya/KenyaAtlas` | [scripts/KenyaAtlas/](scripts/KenyaAtlas/) |
+| `users/gabrielsanya/Liberia` | [scripts/Liberia/](scripts/Liberia/) |
+| `users/gabrielsanya/Oyoun` | [scripts/Oyoun/](scripts/Oyoun/) |
+| `users/gabrielsanya/RL_reseeding` | [scripts/RL_reseeding/](scripts/RL_reseeding/) |
+| `users/gabrielsanya/Saudi` | [scripts/Saudi/](scripts/Saudi/) |
+| `users/gabrielsanya/SaudiAtlas` | [scripts/SaudiAtlas/](scripts/SaudiAtlas/) |
+| `users/gabrielsanya/ServirProgram` | [scripts/ServirProgram/](scripts/ServirProgram/) |
+| `users/gabrielsanya/Somalia` | [scripts/Somalia/](scripts/Somalia/) |
+| `users/gabrielsanya/Sudan` | [scripts/Sudan/](scripts/Sudan/) |
+| `users/gabrielsanya/try/Bouar` | [scripts/try/Bouar/](scripts/try/Bouar/) |
+| `users/gabrielsanya/try/Galana` | [scripts/try/Galana/](scripts/try/Galana/) |
+
+**Aljouf** already has one placeholder `.js` file per sub-script (e.g. `LST_Aljouf.js`, `NDVI_wet_season.js`). The other 16 project folders each have a short README; add one `.js` file per sub-script as you copy from GEE.
 
 ## How to put your GEE code on GitHub
 
-Earth Engine doesn’t export scripts in bulk. For each script:
+Earth Engine doesn’t export scripts in bulk. For each sub-script:
 
-1. Open [code.earthengine.google.com](https://code.earthengine.google.com/) and open the script (e.g. **Aljouf**).
-2. Select all code in the editor (Ctrl+A / Cmd+A), then copy (Ctrl+C / Cmd+C).
-3. In this repo, open the matching file (e.g. `scripts/Aljouf.js`).
-4. Replace the placeholder lines with your pasted code (you can keep or remove the first comment line).
-5. Save the file.
+1. Open [code.earthengine.google.com](https://code.earthengine.google.com/) and open the script (e.g. **Aljouf** → **LST_Aljouf**).
+2. Select all code (Ctrl+A / Cmd+A), then copy (Ctrl+C / Cmd+C).
+3. In this repo, open the matching file (e.g. `scripts/Aljouf/LST_Aljouf.js`).
+4. Replace the placeholder with your pasted code and save.
 
-Repeat for every script you want on GitHub. When you’re done, commit and push:
+For projects other than Aljouf, create a new `.js` file in that project’s folder with the same name as in GEE (e.g. `scripts/code101/MyScript.js`).
 
-```bash
+When you’ve updated files, commit and push:
+
+```powershell
+cd "g:\1.Personal\Gabriel_Lapttop\2.Personal\1.Applications\2025-2026\GEE"
 git add scripts/
 git commit -m "Add GEE script code"
 git push
 ```
 
-## First-time GitHub setup
+## Adding sub-scripts for other projects
 
-If this folder isn’t a Git repo yet:
+If you have a list of sub-script names for another project (e.g. from a screenshot of the GEE Scripts panel), you can add placeholder `.js` files the same way as in Aljouf. Otherwise, add `.js` files manually as you copy from GEE.
 
-```bash
-cd "g:\1.Personal\Gabriel_Lapttop\2.Personal\1.Applications\2025-2026\GEE"
-git init
-git add .
-git commit -m "Initial commit: GEE scripts portfolio"
-```
-
-Then create a new repository on [GitHub](https://github.com/new) (e.g. name: `gee-scripts`), **don’t** add a README or .gitignore there, and run:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/gee-scripts.git
-git branch -M main
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and `gee-scripts` with your GitHub username and repo name.
-
-## Adding a new script later
-
-1. Create a new `.js` file under `scripts/` (e.g. `scripts/MyProject.js` or `scripts/folder/MyScript.js`).
-2. Paste your GEE code into it.
-3. Optionally add a row to the table in this README.
-4. Commit and push.
-
-Once pushed, all your scripts are available on GitHub for viewing, sharing, and cloning.
+Once pushed, all scripts are on GitHub for viewing and sharing.
