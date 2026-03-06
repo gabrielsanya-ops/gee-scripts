@@ -6,6 +6,10 @@ Scripts under **users/gabrielsanya/code101** in the GEE Code Editor. All code101
 
 | Path | Description |
 |------|-------------|
+| **02-Vegetation-Indices/** | NDVI/EVI scripts |
+| | `NDVI_Kenya.js` – Sentinel-2 NDVI (Kenya AOI as imported geometry) |
+| | `NDVI_TimeAnomaly.js` – MODIS EVI cumulative anomaly + time-series charts |
+| | `NDVI_TimeAnomaly_Sentinel.js` – Sentinel-2 EVI (Kenya `ke_pol`) |
 | **03-Supervised-Classification/** | Supervised land cover classification |
 | | `01d_Basic_Supervised_Classification_(noimport)_Saudi.js` – Saudi Arabia, S2_SR, Random Forest, GCPs (ujavalgandhi/e2e) |
 | **04-Change-Detection/** | Change detection and post-classification comparison |
