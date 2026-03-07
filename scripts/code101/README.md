@@ -21,6 +21,7 @@ Scripts under **users/gabrielsanya/code101** in the GEE Code Editor. All code101
 | **Fire_Detection_CAR.js** | Burn severity (NBR/dNBR) – CAR study area, S2 or L8, export |
 | **Fire_Detection_kenya.js** | Burn severity (NBR/dNBR) – Kenya (ke_pol), S2 or L8, export |
 | **Naivasha.js** | Supervised classification with Google Satellite Embedding V1 (Naivasha, Kenya), train/test, export |
+| **Nigeria_Crop.js** | Maize land classification (Nigeria), S2 SR + cloud prob, CART/RF, validation, area, export |
 
 ## Adding more scripts
 
