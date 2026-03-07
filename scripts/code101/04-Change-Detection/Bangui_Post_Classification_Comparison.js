@@ -1,4 +1,5 @@
-// Post-classification comparison for Bangui. Imports: bangui (geometry), urban, water, vegetation, road (FeatureCollections with 'landcover')
+// Post-classification comparison for Bangui (Bangui, CAR).
+// Imports (required in GEE): bangui (Polygon), urban, bare, water, vegetation, road (FeatureCollections with 'landcover' property).
 // Before period: 2018-01-01 to 2019-02-01; After period: 2019-01-01 to 2020-02-01
 
 var s2 = ee.ImageCollection('COPERNICUS/S2_SR');
@@ -17,7 +18,7 @@ var after = s2
   .median()
   .clip(bangui);
 
-var gcps = urban.merge(water).merge(vegetation).merge(road);
+var gcps = urban.merge(bare).merge(water).merge(vegetation).merge(road);
 var training = before.sampleRegions({ collection: gcps, properties: ['landcover'], scale: 10 });
 var classifier = ee.Classifier.smileRandomForest(50).train({
   features: training,
