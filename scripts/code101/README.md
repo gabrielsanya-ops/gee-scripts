@@ -20,6 +20,7 @@ Scripts under **users/gabrielsanya/code101** in the GEE Code Editor. All code101
 | **CAR_Bangui_flooded_area.js** | Sentinel-1 flood mapping (Bangui, CAR), before/after VV difference, export |
 | **Fire_Detection_CAR.js** | Burn severity (NBR/dNBR) – CAR study area, S2 or L8, export |
 | **Fire_Detection_kenya.js** | Burn severity (NBR/dNBR) – Kenya (ke_pol), S2 or L8, export |
+| **Naivasha.js** | Supervised classification with Google Satellite Embedding V1 (Naivasha, Kenya), train/test, export |
 
 ## Adding more scripts
 
