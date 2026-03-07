@@ -17,6 +17,7 @@ Scripts under **users/gabrielsanya/code101** in the GEE Code Editor. All code101
 | | `Bangui_Post_Classification_Comparison.js` – Before/after classification, transition matrix, area by transition |
 | | `Fire_Detection_kenya.js` – dNBR fire/change detection (SCL cloud mask, water/veg mask, area chart, exports) |
 | **Bangui_mosquitoe_prone.js** | Sentinel-1 flood change detection (Bangui, CAR), JRC permanent water removal, area & export |
+| **CAR_Bangui_flooded_area.js** | Sentinel-1 flood mapping (Bangui, CAR), before/after VV difference, export |
 | **Fire_Detection_CAR.js** | Burn severity (NBR/dNBR) – CAR study area, S2 or L8, export |
 | **Fire_Detection_kenya.js** | Burn severity (NBR/dNBR) – Kenya (ke_pol), S2 or L8, export |
 
