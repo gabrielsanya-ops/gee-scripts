@@ -11,6 +11,7 @@ Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-
 | `Fire_Detection_kenya.js` | dNBR fire/change detection, SCL cloud mask, water/veg mask, area chart, exports |
 | `Naivasha.js` | Supervised classification with Google Satellite Embedding V1 (Naivasha), train/test, export |
 | `Thika_Pineapples_Supervised_Classification.js` | Thika pineapple and land cover with Satellite Embedding, RF, legend |
+| `Busia_Economic_SocioEconomicgrowth.js` | Busia County Decision Dashboard: DW land cover, NDVI, night-lights, rainfall, water, flood risk, charts |
 
 ## Adding more scripts
 
