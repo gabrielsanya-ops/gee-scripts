@@ -1,5 +1,19 @@
 # KenyaAtlas
 
-Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor.
+Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-focused vegetation, land cover, and change detection.
 
-Add one `.js` file per script: open each script in [code.earthengine.google.com](https://code.earthengine.google.com/), copy the code, and save it here with the same name (e.g. `MyScript.js`).
+## Scripts
+
+| Script | Description |
+|--------|-------------|
+| `NDVI_Kenya.js` | Sentinel-2 NDVI (Kenya AOI as imported geometry) |
+| `NDVI_TimeAnomaly_Sentinel.js` | Sentinel-2 EVI time series (Kenya `ke_pol`) |
+| `Fire_Detection_kenya.js` | dNBR fire/change detection, SCL cloud mask, water/veg mask, area chart, exports |
+| `Naivasha.js` | Supervised classification with Google Satellite Embedding V1 (Naivasha), train/test, export |
+| `Thika_Pineapples_Supervised_Classification.js` | Thika pineapple and land cover with Satellite Embedding, RF, legend |
+
+## Adding more scripts
+
+1. In GEE, open the script under `users/gabrielsanya/KenyaAtlas`.
+2. Copy the code into a new `.js` file here with the same name.
+3. Commit and push.
