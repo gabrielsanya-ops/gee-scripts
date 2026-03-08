@@ -16,6 +16,7 @@ Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-
 | `Busia_similarity_search.js` | Similarity search with satellite embeddings (reference points in `samples`), Busia search area, predicted matches |
 | `DEM_Kenya2.js` | ETOPO1 hillshade + SRTM DEM 30m for Kenya (ke_pol), export both to Drive (KenyaAtlas / GEE_Exports) |
 | `ForestMonitor_EVI-NDV.js` | MODIS EVI forest condition trend (Western/Eastern Mau), greening/browning, Sen slope, area table, scatter by year |
+| `GalanaKulalu.js` | Galana-Kulalu food security: AOI, pilot/PPP/demo farms, ESRI LULC, S2 water/irrigation, Landsat NDVI/EVI/SAVI, CHIRPS rainfall, VIIRS night lights, yield estimation, charts and milestones |
 
 ## Adding more scripts
 
