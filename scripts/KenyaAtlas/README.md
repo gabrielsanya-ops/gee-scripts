@@ -12,6 +12,7 @@ Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-
 | `Naivasha.js` | Supervised classification with Google Satellite Embedding V1 (Naivasha), train/test, export |
 | `Thika_Pineapples_Supervised_Classification.js` | Thika pineapple and land cover with Satellite Embedding, RF, legend |
 | `Busia_Economic_SocioEconomicgrowth.js` | Busia County Decision Dashboard: DW land cover, NDVI, night-lights, rainfall, water, flood risk, charts |
+| `Busia_LightUp.js` | VIIRS night lights per constituency (2019–2025), trend slope, tiers, choropleth, sparklines, area illuminated vs non illuminated |
 
 ## Adding more scripts
 
