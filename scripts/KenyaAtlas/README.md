@@ -20,6 +20,7 @@ Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-
 | `Galana_Crop_Monitoring.js` | IGAD crop condition monitoring (Galana-Kulalu): S2 composites, consensus land cover, cropland mask, NDVI/EVI/SAVI/NDMI/NDWI, baseline and anomalies, CHIRPS/SPI, VCI stress, yield outlook, water/terrain, charts and dashboard |
 | `Kenya_rainfall.js` | CHIRPS annual rainfall by Kenya county (KeCounty), mean and std dev, choropleth by deviation from mean, legend, CSV export to Drive |
 | `Suguta_SoilMoisture_OPTRAM.js` | OPTRAM soil moisture from Sentinel-2 (Suguta AOI): STR, NDVI, full-cover/bare-soil percentiles, OPTRAM index, 7 moisture classes, legend, export to Drive |
+| `Suguta_land_degradation_2025_landdegradation.js` | Enhanced land degradation with SOC: Landsat/S2 NDVI trend, WorldCover LC change, OpenLandMap SOC, SOC trend/state, productivity 5/3-class, risk, area stats, legend |
 
 ## Adding more scripts
 
