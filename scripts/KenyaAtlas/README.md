@@ -13,6 +13,7 @@ Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-
 | `Thika_Pineapples_Supervised_Classification.js` | Thika pineapple and land cover with Satellite Embedding, RF, legend |
 | `Busia_Economic_SocioEconomicgrowth.js` | Busia County Decision Dashboard: DW land cover, NDVI, night-lights, rainfall, water, flood risk, charts |
 | `Busia_LightUp.js` | VIIRS night lights per constituency (2019–2025), trend slope, tiers, choropleth, sparklines, area illuminated vs non illuminated |
+| `Busia_similarity_search.js` | Similarity search with satellite embeddings (reference points in `samples`), Busia search area, predicted matches |
 
 ## Adding more scripts
 
