@@ -14,6 +14,7 @@ Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-
 | `Busia_Economic_SocioEconomicgrowth.js` | Busia County Decision Dashboard: DW land cover, NDVI, night-lights, rainfall, water, flood risk, charts |
 | `Busia_LightUp.js` | VIIRS night lights per constituency (2019–2025), trend slope, tiers, choropleth, sparklines, area illuminated vs non illuminated |
 | `Busia_similarity_search.js` | Similarity search with satellite embeddings (reference points in `samples`), Busia search area, predicted matches |
+| `DEM_Kenya2.js` | Kenya hillshade from NOAA ETOPO1 (bedrock), clip to ke_pol, export GeoTiff to Drive folder KenyaAtlas |
 
 ## Adding more scripts
 
