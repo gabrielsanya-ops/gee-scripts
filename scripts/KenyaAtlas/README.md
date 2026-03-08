@@ -18,6 +18,7 @@ Sub-scripts for **users/gabrielsanya/KenyaAtlas** in the GEE Code Editor. Kenya-
 | `ForestMonitor_EVI-NDV.js` | MODIS EVI forest condition trend (Western/Eastern Mau), greening/browning, Sen slope, area table, scatter by year |
 | `GalanaKulalu.js` | Galana-Kulalu food security: AOI, pilot/PPP/demo farms, ESRI LULC, S2 water/irrigation, Landsat NDVI/EVI/SAVI, CHIRPS rainfall, VIIRS night lights, yield estimation, charts and milestones |
 | `Galana_Crop_Monitoring.js` | IGAD crop condition monitoring (Galana-Kulalu): S2 composites, consensus land cover, cropland mask, NDVI/EVI/SAVI/NDMI/NDWI, baseline and anomalies, CHIRPS/SPI, VCI stress, yield outlook, water/terrain, charts and dashboard |
+| `Kenya_rainfall.js` | CHIRPS annual rainfall by Kenya county (KeCounty), mean and std dev, choropleth by deviation from mean, legend, CSV export to Drive |
 
 ## Adding more scripts
 
